@@ -8,7 +8,7 @@
 }
 
 .navigation-icon{
-    background-image: url(../assets/images.png);
+    background-image: url(../asset/images.jpg);
     border: 1px solid black;
     height: 32px;
     width: 32px;
@@ -30,13 +30,38 @@
 
 .core-content {
     display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .core-item {
-    height: 200px;
     width: 100%;
     border: 1px solid;
     margin: 18px;
+}
+
+.banner-item1 {
+    background-image: url(../asset/OIP.jpeg);
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-item2 {
+    background-image: url(../asset/R.jpeg);
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-item3 {
+    background-image: url(../asset/ada.jpeg);
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
 }
 
 .core-item>header>h2{
@@ -46,10 +71,21 @@
 .item-right {
     background-color: lightgrey;
     border: 0;
+    height: 400px;
 }
 
-.item form {
-    text-align: center;
+.item-form {
+    padding-left: 20px;
+    text-align: left;
+}
+
+.item-form>div{
+    padding-bottom: 10px;
+}
+
+.cars{
+    height: 32px;
+    width: 50%;
 }
 
 .item-form>input {
@@ -58,6 +94,18 @@
     margin-left: 8px;
     border: 1px solid darkgrey;
     border-radius: 4px;
+}
+
+.send-button {
+    height: 40px;
+    width: 200px;
+    color: white;
+    background-color: black;
+    border-radius: 8px;
+}
+
+.form-username{
+    width: 70%;
 }
 
 .our-package-content {
@@ -70,3 +118,59 @@
     font-weight: bold; 
     text-align: center;
  }
+
+ .details{
+    display: flex;
+    height: 20px;
+    width: 100%;
+    margin: 18px;
+}
+
+.details-left{
+    text-align: left;
+    padding-left: 50px;
+    font-size: 12px;
+    padding-right: 50px;
+}
+
+.details-center{
+    text-align: left;
+    font-size: 12px;
+    padding-left:110px;
+    padding-right:110px;
+}
+
+.details-right{
+    text-align: left;
+    padding-right: 120px;
+    font-size: 12px;
+}
+
+.closing-arguement{
+    font-size: 24px;
+    font-weight: bold; 
+    text-align: center;
+}
+
+.closing-arguement>p{
+    font-size: 15px;
+    font-weight:normal;
+}
+
+.closing-arguement>button{
+    height: 40px;
+    width: 200px;
+    color: white;
+    background-color: black;
+    border-radius: 8px;
+}
+
+.footer{
+    text-align: center;
+    font-size: 15px;
+}
+
+.footer-out{
+    color: grey;
+    font-size: 14px;
+}
